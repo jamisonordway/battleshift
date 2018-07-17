@@ -36,3 +36,20 @@
 
 # game = Game.new(game_attributes)
 # game.save!
+
+user_1 = User.new(
+    email = 'jamisonordway@gmail.com'
+    name = 'jamison'
+    password_digest = '111'
+    api_key = 'xpY3-7CevGhqV9QLLHMJMA'
+    is_activated = true
+)
+
+user_1 = User.new(
+    email = 'wreathofbones@gmail.com'
+    name = 'lilith'
+    password_digest = '666'
+    api_key = '4_vDVJIy0DALiMa9E8Qlcg'
+    is_activated = true
+)
+

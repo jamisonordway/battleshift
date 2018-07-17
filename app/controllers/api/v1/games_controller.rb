@@ -23,6 +23,7 @@ module Api
 
       def show
         if Game.exists?(params[:id])
+          binding.pry
           game = Game.find(params[:id])
           render json: game
         else
